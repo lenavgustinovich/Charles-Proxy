@@ -24,8 +24,11 @@ request url params:
  ⁃ Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 # `Rewrite`
  В меню Charles переходим в `Tools > Rewrite > Add`
+ 
 ![0.png](jpeg/0.png)
+
  Добавляем новый сет:
+
  ![2.png](jpeg/2.png)
 
 # Response
