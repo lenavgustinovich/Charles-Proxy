@@ -218,8 +218,11 @@ request url params:
 # Task:
 
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
+
  ⁃ Подменить salary в request
+ 
  ⁃ Подменить (salary * 2) в response
 
 # `BreakPoint`
@@ -277,5 +280,7 @@ response:
 
 # Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
+
  ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
