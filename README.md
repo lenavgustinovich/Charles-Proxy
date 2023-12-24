@@ -222,7 +222,7 @@ request url params:
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
 
  ⁃ Подменить salary в request
- 
+
  ⁃ Подменить (salary * 2) в response
 
 # `BreakPoint`
@@ -284,3 +284,29 @@ response:
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
 
  ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
+
+# `BreakPoint`
+
+Добавляем брейкпоинт:
+
+![30.png](jpeg/30.png)
+
+перехватываем ответ и подменяем данные
+
+![31.ppng](jpeg/31.png)
+
+![32.ppng](jpeg/32.png)
+
+
+# `Rewrite`
+
+В меню Charles переходим в `Tools > Rewrite > Add`
+
+![33.png](jpeg/33.png)
+
+создаем правила:
+
+![34.png](jpeg/34.png)
+
+![35.png](jpeg/35.png)
+
