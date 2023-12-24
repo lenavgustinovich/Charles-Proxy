@@ -4,7 +4,7 @@ Protocol: http
 IP: 162.55.220.72
 Port: 5005
 ```
-# Ex_1: 
+# ``` Ex_1:```
 ```
 Method: GET
 EndPoint: /get_method
@@ -24,7 +24,7 @@ request url params:
  ⁃ Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 # `Rewrite`
  В меню Charles переходим в `Tools > Rewrite > Add`
- 
+
 ![0.png](jpeg/0.png)
 
  Добавляем новый сет:
@@ -45,7 +45,7 @@ request url params:
 
 ![4.png](jpeg/4.png) 
 
-# Ex_2:
+# ```Ex_2:```
 
 ```
 Method: POST
@@ -69,6 +69,17 @@ request form data:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
 
+# `BreakPoint`
+
+Добавляем брейкпоинт:
+
+![5.png](jpeg/5.png)  
+
+перехватываем ответ
+
+![6.png](jpeg/6.png)
+
+подменяем данные в  u_salary_1_5_year
 
  
 
